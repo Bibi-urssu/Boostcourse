@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3C0FDD294D946400B57229 /* AlbumLIstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C0FDC294D946400B57229 /* AlbumLIstViewController.swift */; };
+		3E3C0FDF294D947E00B57229 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C0FDE294D947E00B57229 /* AlbumDetailViewController.swift */; };
+		3E3C0FE1294D949100B57229 /* ImageZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C0FE0294D949100B57229 /* ImageZoomViewController.swift */; };
+		3E3C0FE4294D94BF00B57229 /* AlbumListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C0FE3294D94BF00B57229 /* AlbumListCollectionViewCell.swift */; };
+		3E3C0FE6294D94D000B57229 /* AlbumDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C0FE5294D94D000B57229 /* AlbumDetailCollectionViewCell.swift */; };
 		3EFC96D42933E0D400C2B9C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC96D32933E0D400C2B9C1 /* AppDelegate.swift */; };
 		3EFC96D62933E0D400C2B9C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC96D52933E0D400C2B9C1 /* SceneDelegate.swift */; };
 		3EFC96D82933E0D400C2B9C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC96D72933E0D400C2B9C1 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3C0FDC294D946400B57229 /* AlbumLIstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumLIstViewController.swift; sourceTree = "<group>"; };
+		3E3C0FDE294D947E00B57229 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		3E3C0FE0294D949100B57229 /* ImageZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomViewController.swift; sourceTree = "<group>"; };
+		3E3C0FE3294D94BF00B57229 /* AlbumListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E3C0FE5294D94D000B57229 /* AlbumDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		3EFC96D02933E0D400C2B9C1 /* MyAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFC96D32933E0D400C2B9C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFC96D52933E0D400C2B9C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3C0FDB294D944900B57229 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C0FDC294D946400B57229 /* AlbumLIstViewController.swift */,
+				3E3C0FDE294D947E00B57229 /* AlbumDetailViewController.swift */,
+				3E3C0FE0294D949100B57229 /* ImageZoomViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3E3C0FE2294D949C00B57229 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C0FE3294D94BF00B57229 /* AlbumListCollectionViewCell.swift */,
+				3E3C0FE5294D94D000B57229 /* AlbumDetailCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		3EFC96C72933E0D400C2B9C1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,8 @@
 		3EFC96D22933E0D400C2B9C1 /* MyAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				3E3C0FDB294D944900B57229 /* ViewController */,
+				3E3C0FE2294D949C00B57229 /* Cell */,
 				3EFC96D32933E0D400C2B9C1 /* AppDelegate.swift */,
 				3EFC96D52933E0D400C2B9C1 /* SceneDelegate.swift */,
 				3EFC96D72933E0D400C2B9C1 /* ViewController.swift */,
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3C0FDD294D946400B57229 /* AlbumLIstViewController.swift in Sources */,
+				3E3C0FE6294D94D000B57229 /* AlbumDetailCollectionViewCell.swift in Sources */,
 				3EFC96D82933E0D400C2B9C1 /* ViewController.swift in Sources */,
+				3E3C0FDF294D947E00B57229 /* AlbumDetailViewController.swift in Sources */,
+				3E3C0FE1294D949100B57229 /* ImageZoomViewController.swift in Sources */,
 				3EFC96D42933E0D400C2B9C1 /* AppDelegate.swift in Sources */,
+				3E3C0FE4294D94BF00B57229 /* AlbumListCollectionViewCell.swift in Sources */,
 				3EFC96D62933E0D400C2B9C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
